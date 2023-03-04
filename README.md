@@ -1,4 +1,15 @@
 # Tododb
+*   This Project store Todo List in H2 Database.
+##  Framework and Language use in this Project-
+ *  Springboot
+ *  Java
+##  Dependencies
+ *  Spring Web
+ *  H2 Database
+ *  Spring Boot DevTools
+ *  Lombok 
+ *  Spring Data JPA
+ 
 ### Requirments
  * IntelliJIDEA
  * Serverport: 8080 (use: localhost:8080)
@@ -12,7 +23,7 @@
  
  User will perform following operations - 
  ##### 1) - Add Todo Info -
- In AddTodo functionality we Post User info through Postman and it gets added to the User list - 
+ In AddTodo functionality we Post Todo info through Postman and it gets added to the H2 database - 
  ##### -> Add Todo EndPoints:
        * Home - localhost:8080/
        * Endpoint -/add-todo
